@@ -1,0 +1,66 @@
+@media (min-width: 1280px)
+{
+  body{
+      margin: 0;
+      padding: 0;
+  }
+  #cap {
+      background-color: #006C2F;
+      height: 100px;
+      overflow: hidden;
+  }
+  .index {
+      width: 15%;
+      border: solid 1px white;
+      text-align: center;
+      float: left;
+      color: white;
+      height: 30px;
+      padding: 5px 3px 0 3px;
+      margin-left: 25px;
+      border-radius: 5px;
+      align-items: center;
+  }
+  h1 {
+      text-align: center;
+      color: white;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 10px;
+  }
+  #cos{
+      float: left;
+      background-color: #02AC4B;
+      width: 70%;
+      margin-top: 0px;
+  }
+  .noticia{
+      background-color: #79FBB1;
+      float: left;
+      height: 170px;
+      width: 22%;
+      margin: 5px;
+      padding: 5px;
+      margin: 10px 10px 10px 10px;
+  }
+  #menu{
+      float: left;
+      background-color: #008439;
+      margin-top: 0px;
+      width: 30%;
+  }
+  .opinio{
+      float: left;
+      background-color: #66EB9F;
+      height: 100px;
+      width: 90%;
+      padding: 5px;
+      margin: 10px 10px 10px 10px;
+  }
+  #peu {
+      float: left;
+      height: 50px;
+      background-color: #006C2F;
+      width: 100%;
+  }
+}fin de media

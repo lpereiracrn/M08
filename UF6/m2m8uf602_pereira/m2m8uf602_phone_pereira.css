@@ -1,0 +1,70 @@
+@media (max-width: 480px){
+
+body {
+  margin:0;
+  padding: 0;
+}
+
+#cap {
+  background-color: #356264;
+  height: 45px;
+  overflow: hidden;
+  width: 100%
+}
+
+#cap:hover{
+  height: 240px
+}
+
+.index {
+  border: solid 1px; white;
+  text-align: center;
+  color: white;
+  display: block;
+  height: 30px;
+  padding: 5px 3px 0 3px;
+  border-radius: 5px;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  margin:0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+#cos{
+  background-color: #009CC0;
+  width: 96.5%;
+  padding: 10px 10px 1px 10px;
+}
+
+#menu {
+  background-color: turquoise;
+  width: 96.5%;
+  background-color: #00E0D9;
+  padding: 10px 10px 1px 10px;
+}
+
+.noticia {
+  background-color: #C2D6E3;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+
+.opinio {
+  background-color: #C2D6E3;
+  height: 300px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+#peu {
+    height: 50px;
+    background-color: #356264;
+    width: 100%;
+}
+
+}
