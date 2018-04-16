@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+        @media (max-width:480px) and (orientation:portrait)
+        {
+          body {
+           background-color: yellow;
+         }
+         h1{
+           font-size:2em;
+           color:orange;
+         }
+       }
+
+       @media (max-width:480px) and (orientation: landscape)
+       {
+          body {
+            background-color: yellow;
+          }
+          h1 {
+            font-size: 2em;
+            color:green;
+          }
+       }
+       @media (max-width:768px) and (min-width:481px) and (orientation: portrait)
+       {
+          body {
+            background-color: cyan;
+          }
+          h1 {
+            font-size: 5em;
+            color: red;
+          }
+       }
+       @media (max-width:768px) and (min-width:481px) and (orientation:landscape)
+       {
+         body{
+           background-color: cyan;
+           }
+
+       h1{
+         font-size: 5em;
+         color: purple;
+       }
+      }
+       @media (min-width:769px) and (orientation: portrait)
+       {
+          body {
+            background-color: red;
+          }
+          h1 {
+            font-size: 10em;
+            color: #FFF;
+          }
+       }
+       @media (min-width:769px) and (orientation: landscape)
+       {
+          body {
+            background-color: red;
+          }
+          h1 {
+            font-size: 10em;
+            color: #000;
+          }
+       }
+</style>
+</head>
+<body>
+  <h1>Mega Títol</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</body>
+</html>
